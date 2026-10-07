@@ -1,3 +1,7 @@
 ﻿*.exe
 .vscode/
 __pycache__/
+Desktop/
+DSA_C++/
+OOP_c++/
+python/
