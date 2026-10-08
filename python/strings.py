@@ -40,3 +40,5 @@ final_str = str1 + " " + str2 #it will calculate the empty space as well while m
 print(len(final_str))
 print(final_str)
 
+print(final_str)
+
