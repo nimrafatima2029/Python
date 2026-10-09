@@ -25,4 +25,12 @@ print(str2[-5 : ])#now it print whole word i.e apple
 
 #now to print the flipped version of apple
 #syntax => print(str[start : stop : step])
-print(str2[-1 : -6 ])
+print(str2[-1 : -6 : -1 ])#epplA
+"""
+First Blank (Start): Because the step is negative (-1), Python 
+...automatically defaults the start to the very end of the string.
+
+Second Blank (Stop): Python automatically defaults the stop to the very beginning of the string
+
+The -1 (Step): This tells Python to step backward, one character at a time
+"""
