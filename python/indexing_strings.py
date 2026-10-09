@@ -14,12 +14,10 @@ print(a)
 #Negative indexing starts at -1 from the very end of the sequence and moves backward.
 # This is useful when you want to get the last items without knowing the total length.
 str = "Nimra Fatima"
-a = str[-1]
+a = str[-1]#what it does it took the whole length of the string and then minus 1 from it as
+#... as the indexing starts from 0 in the python in this way it gives u the last 
+#...element of the string
 print(a)
-
-
-
-
 
 
 
@@ -32,3 +30,17 @@ print(a)
 #If you have the 6-character string "PYTHON" (length = 6):
 #To get the last item: 6 + (-1) = 5 (which is index 5, or 'N').
 #If you used -0: 6 + (-0) = 6 (index 6 is out of bounds and doesn't exist)
+
+
+
+
+
+
+
+#Important Rules to Remember
+#IndexError: If you try to access an index that
+#...doesn't exist (e.g., text[18]), Python will throw an IndexError: string index out of range.
+
+#Immutability: Strings and tuples are immutable. You can read a character using indexing,
+#...but you cannot change it directly (e.g., text[0] = "X" will cause a TypeError).
+#... Lists, however, are mutable, so my_list[0] = "X" works perfectly.
