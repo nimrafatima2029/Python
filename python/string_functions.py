@@ -32,6 +32,10 @@ print(str1.find("N"))#as capital N does not exist it will return -1. anything th
 
 
 #function5: str2.count("")
+#this function counts the occurrances of the sub-string i.e how many times a specific word or letter appeared in the string
 str2 = "i am nimra fatima studing ai in university of malakand, hello nimra! "
-print(str2.count("i"))
-print(str2.count("nimra"))
+print(str2.count("i"))#letter 'i' appears 8 times
+print(str2.count("nimra"))#word 'nimra appears' 2 times
+
+
+
