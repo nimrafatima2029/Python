@@ -9,4 +9,5 @@ print(x)
 #method2: 
 
 h = tup.index(1)#print the index of a given number
-print(h)
+print(h) # output : 0
+
