@@ -9,3 +9,4 @@ elif(b > c):
     
 else:
     print(c , "=> it is greatest of all numbers")
+    
