@@ -48,9 +48,18 @@ e = alphabets.reverse()
 print(alphabets)
 
 
-h = e.sort(reverse = True)
-print(e)
+h = alphabets.sort(reverse = True)
+print(alphabets)
 
 #📋 Copying
 f = alphabets.copy()
 print(f)
+
+# alphabets.reverse()	        |Reverses the current order of elements.
+# alphabets.sort()	            |Sorts elements in ascending order.
+# alphabets.sort(reverse=True)	|Sorts elements in descending order.
+
+#One more important point: Both reverse() and sort() modify the original list and return None.
+#Therefore, e and h will also contain None if you print them.
+
+
