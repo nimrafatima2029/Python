@@ -41,4 +41,4 @@ print(student[: -1])#it will automatically starts printing from zero index and t
 print(name[-5 : -1])#print full list except last element
 print(name[-5: ])#print full list
 
-print(name[-1 : -6 : -1])
+print(name[-1 : -6 : -1])#prints full list but in reverse order
